@@ -14,6 +14,24 @@ header-img: "img/post-bg-01.jpg"
 
 <EMBED style="FILTER: Xray" src="/mp3/y1.mp3" width=300 height=45 type=audio/mpeg loop="-1" volume="0"></EMBED>
 
+<script type="text/javascript" src="http://www.webestools.com/page/js/flashobject.js"></script>
+<div id="player_8247" style="display:inline-block;">
+	<a href="http://get.adobe.com/flashplayer/">You need to install the Flash plugin</a> - <a href="http://www.webestools.com/">http://www.webestools.com/</a>
+</div>
+<script type="text/javascript">
+	var flashvars_8247 = {};
+	var params_8247 = {
+		quality: "high",
+		wmode: "transparent",
+		bgcolor: "#ffffff",
+		allowScriptAccess: "always",
+		allowFullScreen: "true",
+		flashvars: "url=http%3A%2F%2Fflash.webestools.com%2Fmp3_player%2Ffree_software_song.mp3&autostart=no"
+	};
+	var attributes_8247 = {};
+	flashObject("http://flash.webestools.com/mp3_player/s_2.swf", "player_8247", "600", "35", "8", false, flashvars_8247, params_8247, attributes_8247);
+</script>
+
 亲爱的麓童：
  
 我记得有一封信里跟你说，我要试着跟你说说，关于幸福这件事我的一些散碎的想法。
