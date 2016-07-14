@@ -2,7 +2,7 @@
 layout:     post
 title:      "Successful at Writing"
 subtitle:   ""
-date:       2016-07-15
+date:       2016-07-12
 author:     "Author"
 header-img: "img/post-bg-01.jpg"
 ---
