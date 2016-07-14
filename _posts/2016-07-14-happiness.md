@@ -12,8 +12,7 @@ header-img: "img/post-bg-01.jpg"
   <embed height="50" width="100" src="horse.mp3">
 </audio>
 
-<a href="/mp3/y1.mp3">Play Sound</a>
-<script src="http://mediaplayer.yahoo.com/latest"></script>
+<EMBED style="FILTER: Xray" src="/mp3/y1.mp3" width=300 height=45 type=audio/mpeg loop="-1" volume="0"></EMBED>
 
 亲爱的麓童：
  
