@@ -5,6 +5,8 @@ subtitle:   ""
 date:       2016-07-14
 author:     "Author"
 header-img: "img/post-bg-01.jpg"
+tags:
+    - 幸福
 ---
 
 <audio controls>
