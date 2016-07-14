@@ -12,7 +12,12 @@ header-img: "img/post-bg-01.jpg"
   <embed height="50" width="150" src="horse.mp3">
 </audio>
 
-<embed style="FILTER: Xray" src="/mp3/y1.mp3" width=300 height=45 type=audio/mpeg loop="-1" volume="0"></embed>
+
+<object type="application/x-shockwave-flash" data="dewplayer.swf"   width="200" height="20" id="dewplayer" name="dewplayer">
+<param   name="movie" value="dewplayer.swf" />
+<param name="flashvars"   value="mp3=/mp3/y1.mp3" />
+<param name="wmode" value="transparent"   />
+</object>
 
 亲爱的麓童：
  
