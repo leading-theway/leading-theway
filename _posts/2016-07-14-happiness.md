@@ -3,7 +3,7 @@ layout:     post
 title:      "给麓童的第十一封信"
 subtitle:   ""
 date:       2016-07-14
-author:     "林曦"
+author:     "Author"
 header-img: "img/post-bg-01.jpg"
 ---
 
@@ -11,13 +11,6 @@ header-img: "img/post-bg-01.jpg"
   <source src="/mp3/y1.mp3" type="audio/mpeg">
   <embed height="50" width="150" src="horse.mp3">
 </audio>
-
-
-<object type="application/x-shockwave-flash" data="dewplayer.swf"   width="200" height="20" id="dewplayer" name="dewplayer">
-<param   name="movie" value="dewplayer.swf" />
-<param name="flashvars"   value="mp3=/mp3/y1.mp3" />
-<param name="wmode" value="transparent"   />
-</object>
 
 亲爱的麓童：
  
