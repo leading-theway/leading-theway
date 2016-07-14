@@ -2,7 +2,7 @@
 layout:     post
 title:      "自控力"
 subtitle:   "The Willpower Instinct"
-date:       2016-07-15
+date:        2016-7-15
 author:     "Author"
 header-img: "img/post-bg-06.jpg"
 ---
