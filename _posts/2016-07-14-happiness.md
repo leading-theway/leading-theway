@@ -12,6 +12,9 @@ header-img: "img/post-bg-01.jpg"
   <embed height="50" width="100" src="horse.mp3">
 </audio>
 
+<a href="/mp3/y1.mp3">Play Sound</a>
+<script src="http://mediaplayer.yahoo.com/latest"></script>
+
 亲爱的麓童：
  
 我记得有一封信里跟你说，我要试着跟你说说，关于幸福这件事我的一些散碎的想法。
