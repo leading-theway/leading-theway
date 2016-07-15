@@ -1,14 +1,14 @@
 # Site settings
-title: Little Yong's Voice
+title: Leading The Way
 header-img: img/home-bg.jpg
 email: 1569910942@qq.com
-copyright_name: Little Yong's Voice
+copyright_name: Leading The Way
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
 url: "http://yourdomain.com"
 #twitter_username: SBootstrap
 weibo_username: weibo
-github_username:  littleyong
+github_username:  leading-theway
 #facebook_username:  IronSummitMedia
 email_username:  1569910942@qq.com
 
