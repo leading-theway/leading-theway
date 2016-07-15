@@ -5,6 +5,7 @@ subtitle:   "The Willpower Instinct"
 date:        2016-7-14
 author:     "Author"
 header-img: "img/post-bg-06.jpg"
+categories:  读书笔记
 ---
 
 # 自控力
