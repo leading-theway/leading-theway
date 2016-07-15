@@ -4,22 +4,14 @@ title: "About"
 description: "This is what I do."
 header-img: "img/about-bg.jpg"
 ---
-
+<!--
 <center>
     <p><img src="http://dreamofbook.qiniudn.com/Zero.png" align="center"></p>
 </center>
-
-Ehhhh...I know it's not a good question.
-
-My Name is Azeril. You may find me in sites like douban.com / Goodreads.com / Facebook / Instagram / Twitter / Weibo.com, so on and so forth. It’s easy to know me. My short name is Az., quite easy to remember, right?
-
-喜欢折腾的伪技术宅。一点点 geek，一丢丢的执著，就像吃烧烤时多少会撒一点孜然，恰到好处就够。日常之中，多的是折腾劲，也希望能添几分专注、几许勇敢。这就是我。
-
-——Azeril
-
+-->
 
 > Live long and prosper
 
-<center>
-    <p><img src="http://dreamofbook.qiniudn.com/hacker.png" align="center"></p>
-</center>
+Love myself I do. Not everything, but I love the good as well as the bad. I love my crazy lifestyle, and I love my hard discipline. I love my freedom of speech and the way my eyes get dark when I'm tired. I love that I have learned to trust people with my heart, even if it will get broken. I am proud of everything that I am and will become.
+
+My greatest beauty secret is being happy with myself. I don't use special creams or treatments - I'll use a little bit of everything. It's a mistake to think you are what you put on yourself. I believe that a lot of how you look is to do with how you feel about yourself and your life. Happiness is the greatest beauty secret. 
