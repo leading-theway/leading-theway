@@ -1,5 +1,13 @@
-
-
+---
+layout:     post
+title:      "拖延心理学"
+subtitle:   "Procrastination: Why You Do It, What to Do About It Now"
+date:        2016-7-16
+author:     "Author"
+header-img: "img/post-bg-06.jpg"
+tags:        时间
+categories:  读书笔记
+---
 
 # Part 1 拖延VS行为
 
