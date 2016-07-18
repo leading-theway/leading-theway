@@ -1,0 +1,4 @@
+增补APlayer, 失败
+添加文件  
+           dist: APlayer.min.js APlayer.min.js.map
+           src: APlayer.scss, APlayer.js
