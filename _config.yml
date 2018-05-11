@@ -1,5 +1,5 @@
 # Site settings
-title: Leading The Way
+title: LiXtudio
 header-img: img/home-bg.jpg
 email: 1569910942@qq.com
 copyright_name: Leading The Way
@@ -8,7 +8,7 @@ baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: xlong_us
 #weibo_username: weibo
-github_username:  leading-theway
+github_username:  lixtudio
 facebook_username:  xiaolngli
 email_username:  1569910942@qq.com
 
