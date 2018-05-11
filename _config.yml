@@ -4,8 +4,8 @@ header-img: img/home-bg.jpg
 email: 1569910942@qq.com
 copyright_name: LiXtudio
 description: "Learning Sharing"
-#baseurl: ""
-#url: "http://yourdomain.com"
+baseurl: "https://lixtudio.github.io"
+url: "https://lixtudio.github.io"
 twitter_username: xlong_us
 #weibo_username: weibo
 github_username:  lixtudio
