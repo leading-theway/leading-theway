@@ -17,6 +17,8 @@
 			// scene camera renderer
 			var scene = new THREE.Scene();
 			// scene background
+			var bgimg = new THREE.ImageUtils.loadTexture('/img/space.jpg');
+			scene.background = bgimg;
 
 			var camera = new THREE.PerspectiveCamera(75,window.innerWidth / window.innerWidth, 0.1, 1000);
 
