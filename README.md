@@ -1,2 +1,3 @@
-# lixtudio.github.io
-#  This is where I share my articles and projects.
+# Welcome to [LiXtudio]:https://lixtudio.github.io. !
+
+#  More articles and projects coming...
