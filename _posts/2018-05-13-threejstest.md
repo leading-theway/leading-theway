@@ -1,5 +1,5 @@
 ---
-layout:        post
+layout:        page
 title:         "My first three.js app"
 date:          2018-05-13
 author:        "Author"
