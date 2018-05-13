@@ -46,10 +46,10 @@
 				//new THREE.MeshBasicMaterial( { color:0x7397ff  } ),                      
 				//new THREE.MeshBasicMaterial( { color:0xff0000  } ),                      
 				loadmaterial,
-        loadmaterial,
-        loadmaterial,
-        loadmaterial,
-        loadmaterial,                   
+       				loadmaterial,
+        			loadmaterial,
+        			loadmaterial,
+        			loadmaterial,                   
 				loadmaterial];                   
 
       var boxMesh = new THREE.Mesh( geometry, cubeMaterials );
@@ -67,7 +67,7 @@
 				requestAnimationFrame(animate);
 
 				//rotate
-				boxMesh.rotation.x += 0.0;
+				boxMesh.rotation.x += 0.01;
 				boxMesh.rotation.y += 0.01;
 				boxMesh.rotation.z += 0.0;
 
