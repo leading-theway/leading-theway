@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<script src="/build/three.js"></script>
+
+		<script>
+			// Our Javascript will go here.
+
+			// scene camera renderer
+			var scene = new THREE.Scene();
+			// scene background
+
+			var camera = new THREE.PerspectiveCamera(75,window.innerWidth / window.innerWidth, 0.1, 1000);
+
+			var renderer = new THREE.WebGLRenderer();
+			renderer.setSize(window.innerWidth, window.innerHeight );
+			document.body.appendChild(renderer.domElement);
+
+			//cube texture
+			var textureLoader = new THREE.TextureLoader();
+
+			//var texture0 = textureLoader.load( "../lixtudio/px.png");	
+			var texture0 = new THREE.ImageUtils.loadTexture('/img/y.png');
+
+			// image loader
+			//var imgloader = new THREE.ImageLoader();
+			//var img = imgloader.load('../lixtudio/y.png' );
+
+
+			var geometry = new THREE.BoxGeometry( 10, 10, 10 );
+			var material = new THREE.MeshBasicMaterial({color:0xff0000});
+			var loadmaterial = new THREE.MeshBasicMaterial({map: texture0});
+			//var material = new THREE.MeshBasicMaterial({color:color:0x739783},},{map:texture0});
+			var cubeMaterials = [                                                      
+				//new THREE.MeshBasicMaterial( { color:0xffff00 } ),                      
+				//new THREE.MeshBasicMaterial( { color:0x739783  } ),                      
+				//new THREE.MeshBasicMaterial( { color:0xffff00  } ),                      
+				//new THREE.MeshBasicMaterial( { color:0x7397ff  } ),                      
+				//new THREE.MeshBasicMaterial( { color:0xff0000  } ),                      
+				loadmaterial,
+        loadmaterial,
+        loadmaterial,
+        loadmaterial,
+        loadmaterial,                   
+				loadmaterial];                   
+
+      var boxMesh = new THREE.Mesh( geometry, cubeMaterials );
+
+			// geometry and material
+			//var geometry = new THREE.BoxGeometry(1,1,1);
+			//var material = new THREE.MeshBasicMaterial({color:0xffff00, envMap: textureCube});
+			//var cube = new THREE.Mesh(geometry, material);
+			scene.add(boxMesh);
+			camera.position.z = 18;
+
+
+			// rendering the scene with camera
+			function animate(){
+				requestAnimationFrame(animate);
+
+				//rotate
+				boxMesh.rotation.x += 0.0;
+				boxMesh.rotation.y += 0.01;
+				boxMesh.rotation.z += 0.0;
+
+				renderer.render(scene,camera);
+			};
+			// run
+			animate();
+
+
+
+		</script>
+	</body>
+</html>
