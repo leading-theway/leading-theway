@@ -1,3 +1,3 @@
-# Welcome to [LiXtudio]:https://lixtudio.github.io. !
+# Welcome to [LiXtudio](https://lixtudio.github.io). !
 
 #  More articles and projects coming...
