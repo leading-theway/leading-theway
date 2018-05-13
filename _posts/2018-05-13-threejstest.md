@@ -8,6 +8,7 @@ tags:          3D
 categories:    3D Simulation
 ---
 
+<body>
 <div>
     <script src = "/build/three.min.js"> </script>
 		<script>
@@ -37,3 +38,4 @@ categories:    3D Simulation
 	</script>
   
 </div>
+</body>
