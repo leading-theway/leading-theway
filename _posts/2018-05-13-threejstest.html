@@ -1,40 +1,52 @@
 
 
+<html>
+	<head>
+		<meta charset=utf-8>
+		<title>My first three.js app</title>
+		<style>
+			body {margin:0}
+			canvas {width:100%; height: 100%}
+		<\style>
+	<\head>
+	<body>
+		<script src = "build/three.min.js"> </script>
+		<script>
+			//Javascript goes here.
+			var camera, scene, renderer;
+			var geometry, material, mesh;
 
-<script src = "../build/three.min.js"> </script>
+			init();
+			animate();
 
-var camera, scene, renderer;
-var geometry, material, mesh;
+			function init() {
 
-init();
-animate();
+			camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
+			camera.position.z = 1;
 
-function init() {
+			scene = new THREE.Scene();
 
-	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 0.01, 10 );
-	camera.position.z = 1;
+			geometry = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );
+			material = new THREE.MeshNormalMaterial();
 
-	scene = new THREE.Scene();
+			mesh = new THREE.Mesh( geometry, material );
+			scene.add( mesh );
 
-	geometry = new THREE.BoxGeometry( 0.2, 0.2, 0.2 );
-	material = new THREE.MeshNormalMaterial();
+			renderer = new THREE.WebGLRenderer( { antialias: true } );
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+			}
 
-	mesh = new THREE.Mesh( geometry, material );
-	scene.add( mesh );
+			function animate() {
 
-	renderer = new THREE.WebGLRenderer( { antialias: true } );
-	renderer.setSize( window.innerWidth, window.innerHeight );
-	document.body.appendChild( renderer.domElement );
+			requestAnimationFrame( animate );
 
-}
+			mesh.rotation.x += 0.01;
+			mesh.rotation.y += 0.02;
 
-function animate() {
-
-	requestAnimationFrame( animate );
-
-	mesh.rotation.x += 0.01;
-	mesh.rotation.y += 0.02;
-
-	renderer.render( scene, camera );
-
-}
+			renderer.render( scene, camera );
+			}
+		</script>
+	
+	<\body>
+</html>
