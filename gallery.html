@@ -5,130 +5,152 @@ description: " "
 header-img: "img/home-bg.jpg"
 
 ---
+---
+layout: page
+title: "Gallery"
+description: " "
+header-img: "img/home-bg.jpg"
+
+---
 
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
   box-sizing: border-box;
 }
-
 body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
+.header {
+  text-align: center;
+  padding: 32px;
 }
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
 .row {
-  margin: 8px -16px;
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
+/* Create two equal columns that sits next to each other */
 .column {
-  float: left;
-  width: 25%;
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
 }
-
-/* Clear floats after rows */ 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column {
-    width: 50%;
-  }
+.btn:hover {
+  background-color: #ddd;
 }
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+.btn.active {
+  background-color: #666;
+  color: white;
 }
 </style>
 </head>
 <body>
 
-<!-- MAIN (Center website) -->
-<div class="main">
+<!-- Header -->
 
-<h1>MYLOGO.COM</h1>
-<hr>
-
-<h2>PORTFOLIO</h2>
-<p>Resize the browser window to see the responsive effect.</p>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column">
-    <div class="content">
-      <img src="/img/home-bg.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="/img/home-bg.jpg" alt="Lights" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="/img/home-bg.jpg" alt="Nature" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    </div>
-  </div>
-  <div class="column">
-    <div class="content">
-    <img src="/img/home-bg.jpg" alt="Mountains" style="width:100%">
-      <h3>My Work</h3>
-      <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-    </div>
-  </div>
-<!-- END GRID -->
+<div class="header" id="myHeader">
+  <h1>Image Grid</h1>
+  <p>Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
 </div>
 
-<div class="content">
-  <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
-  <h3>Some Other Work</h3>
-  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
-  <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/img/home-bg.jpg" style="width:100%"><h3>Image 01</h3> <p>New York in Morning </p>
+    <img src="/img/home-bg.jpg" style="width:100%">
+    <img src="/img/about-bg.jpg" style="width:100%">
+    <img src="/img/mypic1.jpg" style="width:100%">
+    <img src="/img/post-bg-01.jpg" style="width:100%">
+    <img src="/img/post-bg-02.jpg" style="width:100%">
+    <img src="/img/post-bg-03.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/img/home-bg.jpg" style="width:100%">
+    <img src="/img/home-bg.jpg" style="width:100%">
+    <img src="/img/about-bg.jpg" style="width:100%">
+    <img src="/img/mypic1.jpg" style="width:100%">
+    <img src="/img/post-bg-01.jpg" style="width:100%">
+    <img src="/img/post-bg-02.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/img/home-bg.jpg" style="width:100%">
+    <img src="/img/home-bg.jpg" style="width:100%">
+    <img src="/img/about-bg.jpg" style="width:100%">
+    <img src="/img/mypic1.jpg" style="width:100%">
+    <img src="/img/post-bg-01.jpg" style="width:100%">
+    <img src="/img/post-bg-02.jpg" style="width:100%">
+    <img src="/img/post-bg-03.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/img/home-bg.jpg" style="width:100%">
+    <img src="/img/about-bg.jpg" style="width:100%">
+    <img src="/img/mypic1.jpg" style="width:100%">
+    <img src="/img/post-bg-01.jpg" style="width:100%">
+    <img src="/img/post-bg-02.jpg" style="width:100%">
+    <img src="/img/post-bg-03.jpg" style="width:100%">
+  </div>
 </div>
 
-<!-- END MAIN -->
-</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+// Declare a loop variable
+var i;
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
 </body>
 </html>
-
