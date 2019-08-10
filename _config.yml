@@ -1,9 +1,9 @@
 # Site settings
-title: blog
+title: Welcome
 header-img: img/home-bg.jpg
 email: 1569910942@qq.com
 copyright_name: LiXtudio
-description: "Learning Sharing"
+description: "Learning & Sharing"
 baseurl: ""
 url: "https://xiaolng.github.io"
 twitter_username: xlong_us
